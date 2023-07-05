@@ -1,7 +1,10 @@
 const Card = ({ data }) => {
   return (
     <>
-      <div className="sm:w-[350px] sm:h-[440px] w-[320px] h-[410px] bg-[#B6B3A8] bg-opacity-50 rounded-lg hover:-translate-y-2 duration-300 cursor-pointer">
+      <div
+        className="sm:w-[350px] sm:h-[440px] w-[320px] h-[410px] bg-[#B6B3A8] bg-opacity-50 rounded-lg hover:-translate-y-2 duration-300 cursor-pointer"
+        // onClick={() => handleClick(data)}
+      >
         <div>
           <img
             src={data.strMealThumb}
