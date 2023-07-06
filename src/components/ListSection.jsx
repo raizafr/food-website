@@ -31,7 +31,7 @@ const ListSection = () => {
   return (
     <>
       {data && <Modal data={data} close={handleClose} />}
-      <section className=" bg-amber-100 py-7">
+      <section className=" bg-amber-100 py-7 " id="targetElement">
         <div>
           <h1 className="text-4xl font-bold ml-6">Food</h1>
           {datas ? (
