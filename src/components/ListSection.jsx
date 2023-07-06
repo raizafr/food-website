@@ -25,7 +25,6 @@ const ListSection = () => {
     setData(data);
   };
   const handleClose = () => {
-    console.log("clos");
     setData(false);
   };
   return (
